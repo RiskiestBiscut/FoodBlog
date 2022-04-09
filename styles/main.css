@@ -70,6 +70,10 @@ body {
     color:#FCFCFC
 }
 
+.color-red {
+    color:#A52B2B;
+}
+
 .top-bar-container {
     background-color: #1F2333;
     display: flex;
@@ -122,7 +126,7 @@ nav {
     transition: 0.4s;
   
   }
-  #instagram:hover {
+  #instagram-2:hover {
     fill: #FFE6B0;
     transition: 0.4s;
   }
@@ -330,3 +334,273 @@ nav {
 .socials-bot {
     padding: 0 1.5em;
 }
+
+
+/* about page styles */
+
+.about-page-image img {
+    width: 43em;
+}
+
+.about-text-center {
+    width: 43em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-title-shift {
+    margin-left: 18rem;
+}
+
+.featured-image-container img {
+width: 27rem;
+height: 28rem;
+}
+
+.featured-image-container {
+    width: 27rem;
+    height: 28rem;
+    }
+
+.featured-content {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-shadow: 0.1em 0.1em 0.3em rgb(0 0 0 / 0.3);
+}
+
+.featured-text {
+    margin-top: 2em;
+    margin-left: 3em;
+    width: 38em;
+}
+
+.featured-text p {
+    margin-left: 1em;
+}
+.featured-text a {
+    margin-left: 1em;
+}
+
+.featured-title-shift {
+    margin-left: 3rem;
+}
+
+.recipe-title {
+    width: 32rem;
+    color:#FCFCFC;
+    background-color: #1F2333;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.nav-list-recipe {
+    list-style-type: none;
+    color: rgb(165 43 43 / 0.7);
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list-recipe-selected {
+    color: rgb(165 43 43);
+}
+
+.recipe-nav-list-item {
+    padding: 0 2em;
+    margin: 1em 0;
+}
+
+.search-container {
+    width: 32rem;
+    height: 2rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-icon {
+    border: #1F2333 solid 0.1em;
+    border-radius: 0 0.2em 0.2em 0;
+    background-color:#1F2333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 1.8em;
+    height: 1.8em;
+}
+
+.search-text {
+    border: #1F2333 solid 0.1em;
+    display: flex;
+    align-items: center;
+   margin: 0;
+   width: 30rem;
+   border-radius: 0.2em 0 0 0.2em;
+   padding-left: 1em;
+}
+
+.recipes-home-container {
+    margin: 4em 0;
+}
+
+.recipes-card {
+    width: 27em;
+    border-radius: 0.2em;
+    box-shadow: 0.1em 0.1em 0.3em rgb(0 0 0 / 0.3);
+    margin: 1em 2em;
+}
+
+
+.recipe-image-container img{
+    width: 25em;
+    margin-top: 0.5em;
+}
+
+.recipes-row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.recipe-card-text h3{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0 0 2rem;
+}
+
+.recipe-card-text p{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 0 0 2.5rem;
+}
+
+.nav-list-recipe {
+    list-style-type: none;
+    color: rgb(165 43 43 / 0.7);
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list-recipe-selected {
+    color: rgb(165 43 43);
+}
+
+.recipe-nav-list-item {
+    padding: 0 2em;
+    margin: 1em 0;
+}
+
+.main-container-recipe {
+    display: grid;
+    grid-template-columns: 20rem 1fr 20rem; 
+    margin-top: 4em;
+    
+}
+
+.recipe-categories-container {
+    grid-column-start: 1;
+}
+
+.recipe-field {
+    grid-column-start: 2;
+    border: rgb(0 0 0 / 0.3) solid 0.1em;
+}
+
+.recipe-field h2 {
+    margin-left: 6rem;
+}
+
+.recipe-image {
+    width: 32rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe-image img{
+    width: 32rem;
+}
+
+.ingredients-container {
+    margin-left: 6rem;
+}
+
+.method-container {
+    margin-left: 6rem;
+}
+
+.seperation-line {
+    width: 90%;
+    height: 0.1em;
+    background-color: rgb(0 0 0 / 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    
+}
+
+.share-elements {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    margin-top: 0;
+}
+.share-elements h4 {
+    margin-right: 2rem;
+}
+
+.socials-recipe-share {
+    margin-right: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+#facebook {
+    width: 1em;
+    margin-bottom: -0.4em;
+    fill: #1F2333;
+    transition: 0.4s;
+  
+  }
+  #facebook:hover {
+    fill: #FFE6B0;
+    transition: 0.4s;
+  }
+
+  #twitter {
+    height: 1em;
+    margin-bottom: -0.4em;
+    fill: #1F2333;
+    transition: 0.4s;
+  
+  }
+  #twitter:hover {
+    fill: #FFE6B0;
+    transition: 0.4s;
+  }
+
+  #linkedin {
+    width: 1em;
+    margin-bottom: -0.4em;
+    fill: #1F2333;
+    transition: 0.4s;
+  
+  }
+  #linkedin:hover {
+    fill: #FFE6B0;
+    transition: 0.4s;
+  }
+
+  #copy-link {
+    height: 1em;
+    margin-bottom: -0.4em;
+    fill: #1F2333;
+    transition: 0.4s;
+  
+  }
+  #copy-link:hover {
+    fill: #FFE6B0;
+    transition: 0.4s;
+  }
+
