@@ -2,41 +2,51 @@ html {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
+body {
+    width: 100%;
+}
 
 .display-1 {
     font-size: 5rem;
     line-height: 5.5rem;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .display-2 {
     font-size: 3rem;
     line-height: 3.5rem;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .heading-1 {
     font-size: 2rem;
     line-height: 2.5rem;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .heading-2a {
     font-size: 1.5rem;
     line-height: 2rem;
-    font-weight: bold;
+    font-weight: 500;
 }
+
 
 .heading-2b {
     font-size: 1.5rem;
     line-height: 2rem;
-    font-weight: 400;
+    font-weight: 700;
+}
+
+.heading-3 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 700;
 }
 
 .body-1a {
     font-size: 1rem;
     line-height: 2rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .body-1b {
@@ -49,6 +59,15 @@ html {
     font-size: 0.875rem;
     line-height: 1.5rem;
     font-weight: 400;
+}
+
+.link-text {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.color-white {
+    color:#FCFCFC
 }
 
 .top-bar-container {
@@ -96,6 +115,218 @@ nav {
     transition: 0.4s;
   }
 
+  #instagram-2 {
+    width: 3.5em;
+    margin-bottom: -0.4em;
+    fill: #FCFCFC;
+    transition: 0.4s;
+  
+  }
+  #instagram:hover {
+    fill: #FFE6B0;
+    transition: 0.4s;
+  }
+
+  #tiktok {
+    height: 3.5em;
+    margin-bottom: -0.4em;
+    fill: #FCFCFC;
+    transition: 0.4s;
+  
+  }
+  #tiktok:hover {
+    fill: #FFE6B0;
+    transition: 0.4s;
+  }
+
   .banner-image img {
       width: 100%;
   }
+
+  .center-flex {
+      display: flex;
+      justify-content: center;
+  }
+
+  .vs-container {
+      display: flex;
+      justify-content: center;
+  }
+  .vs-container img {
+      width: 60%;
+  }
+
+  .button-1 {
+    background-color: #A52B2B;
+    border: none;
+    color: #FCFCFC;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.2em 1em;
+    cursor: pointer;
+    border-radius: 0.3em;
+    box-shadow: 0.1em 0.1em 0.3em rgb(0 0 0 / 0.3);
+  }
+  .button-2 {
+    background-color: #FFC547;
+    border: none;
+    color: #1F2333;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.2em 1em;
+    cursor: pointer;
+    border-radius: 0.3em;
+    box-shadow: 0.1em 0.1em 0.3em rgb(0 0 0 / 0.3);
+  }
+  .whats-better-container {
+      margin: 4em 0;
+  }
+
+  .title-slanted-background {
+   height: 2.4em;
+   background: repeating-linear-gradient(-120deg,
+    white 0em, white 75%,
+   #1F2333 14em,
+   #1F2333
+   );
+   display: flex;
+   align-items: center;
+   margin-left: 2em;
+   margin-bottom: 1em;
+  }
+
+  .slanted-title-text {
+    color:#FCFCFC;
+    margin-left: 0.8em;;
+  }
+
+
+  .about-me-home-container {
+      display: flex;
+      width: 80%;
+      height: 25em;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 4em;
+  }
+  .about-image-container img {
+      width: 22.5rem;
+      
+  }
+
+  .about-text {
+      background-color: #1F2333;
+      color:#FCFCFC;
+     
+
+  }
+
+  .about-text h3 {
+      margin-top: 4rem;
+      margin-left: 4rem;
+      margin-bottom: 0;
+  }
+
+  .about-text p {
+      margin-top: 1em;
+      margin-left: 6rem;
+      width: 80%;
+      margin-bottom: 0;
+  }
+
+  .about-text a {
+    color:#FFC547;
+    margin-left: 6rem;
+}
+.popular-recipes-home-container {
+    margin: 4em 0;
+}
+
+.popular-recipes-card {
+    width: 15em;
+    border-radius: 0.2em;
+    box-shadow: 0.1em 0.1em 0.3em rgb(0 0 0 / 0.3);
+    margin: 1em 2em;
+}
+
+
+.pop-image-container img{
+    width: 14em;
+    margin-top: 0.5em;
+}
+
+.popular-recipes-card h3 {
+    display: flex;
+    justify-content: center;
+    padding: 0.3em;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.popular-recipes-row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer {
+    background-color: #1F2333;
+    color:#FCFCFC;
+    display: flex;
+    margin-top: 4em;
+}
+
+.input-styles {
+    background-color: #1F2333;
+    border: none;
+    border-bottom:0.1em solid #FCFCFC;
+    color: #FCFCFC;
+    width: 12rem;
+}
+
+.input-styles-last {
+    background-color: #1F2333;
+    border: none;
+    border-bottom:0.1em solid #FCFCFC;
+    color: #FCFCFC;
+    width: 18rem;
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 2em;
+}
+
+.submit {
+    grid-row-start: 4;
+    margin-left: 1em;
+    width: 8em;
+    height: 2.5em;
+
+}
+
+.Follow-container {
+    margin-left: 22em;
+}
+
+.bot-socials {
+    display: flex;
+}
+
+.socials-bot {
+    padding: 0 1.5em;
+}
