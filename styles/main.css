@@ -95,12 +95,97 @@ nav {
 
 .nav-list {
     list-style-type: none;
-    color: #FCFCFC;
 }
 
-.nav-list-selected {
-    color: #FFC547;
+.heading-link:link {
+    color:#FCFCFC;
+    text-decoration:none;
 }
+
+.heading-link:visited {
+    color:#FCFCFC;
+    text-decoration:none;
+}
+
+.heading-link:hover {
+    color:#FFE6B0;
+    text-decoration:none;
+}
+
+.heading-link:active {
+    color: #FFC547;
+    text-decoration: underline;
+}
+
+.heading-link-selected {
+    color:#FFC547;
+    text-decoration: none;
+    border-bottom: #FFC547 0.2em solid;
+}
+
+.featured-link:link {
+    color:#A52B2B;
+    text-decoration:none;
+}
+
+.featured-link:visited {
+    color:#A52B2B;
+    text-decoration:none;
+}
+
+.featured-link:hover {
+    color:#FFE6B0;
+    text-decoration:none;
+}
+
+.home-about-link:link {
+    color: #FFE6B0;
+    text-decoration:none;
+}
+
+.home-about-link:visited {
+    color: #FFE6B0;
+    text-decoration:none;
+}
+
+.home-about-link:hover {
+    color:#FFC547;
+    text-decoration:none;
+}
+
+.popular-recipes-card:link {
+    color: #1F2333;
+    text-decoration:none;
+}
+
+.popular-recipes-card:visited {
+    color: #1F2333;
+    text-decoration:none;
+}
+
+.popular-recipes-card:hover {
+    margin: 0 2em 2em 2em;
+    text-decoration:none;
+}
+
+.view-more-button {
+    color:#1F2333;
+}
+.view-more-button:link {
+    color: #1F2333;
+    text-decoration:none;
+}
+
+.view-more-button:link:visited {
+    color: #1F2333;
+    text-decoration:none;
+}
+
+.view-more-button:hover {
+    color: #FCFCFC;
+    text-decoration:none;
+}
+
 
 .nav-list li {
     display: inline;
@@ -255,6 +340,9 @@ nav {
     border-radius: 0.2em;
     box-shadow: 0.1em 0.1em 0.3em rgb(0 0 0 / 0.3);
     margin: 1em 2em;
+    webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
 }
 
 
